@@ -1,0 +1,8 @@
+dev
+node_modules
+*.log
+vscode
+idea
+.idea
+.vscode
+*.log*
