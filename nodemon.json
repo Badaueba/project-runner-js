@@ -1,4 +1,4 @@
 {
   "verbose": true,
-  "ignore": ["dev/*", "views/*", "node_modules/*"]
+  "ignore": ["buid/*", "node_modules/*"]
 }
