@@ -5,6 +5,8 @@ html
     body
         -var values = dir
         ul 
-            each val in values != undefined ? values : ["There is nothing HERE!"]
+            each val in values != undefined ? values : []
                 li
                     a(href=val)=val 
+            else    
+                li There is no index.html in HERE!

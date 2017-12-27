@@ -13,7 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^7.2.3",
-    "body-parser": "^1.18.2",
     "concurrently": "^3.5.1",
     "cssnano": "^3.10.0",
     "gulp": "^3.9.1",
@@ -33,7 +32,9 @@
     "url": "^0.11.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "klaw-sync": "^3.0.2",
     "pug": "^2.0.0-rc.4"
   }
 }
